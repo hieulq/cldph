@@ -15,7 +15,7 @@ def getResponse(url):
 def main():
     now = datetime.now() # current date and time
     date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
-    lines = ['! Title: Chong Lua Dao Blacklist (Pihole)', '! Updated: ' + date_time, '! Expires: 1 day (update frequency)','! Homepage: https:chongluadao.vn', '! License: https:chongluadao.vn', '! Source: https:chongluadao.vn', '! Author: Kent Juno','! ---------- Generic Blocking Rules ----------']
+    lines = ['# Title: Chong Lua Dao Blacklist (Pihole)', '# Updated: ' + date_time, '# Expires: 1 day (update frequency)','# Homepage: https:chongluadao.vn', '# License: https:chongluadao.vn', '# Source: https:chongluadao.vn', '# Author: Kent Juno','# ---------- Generic Blocking Rules ----------']
     print(lines)
     with open('CLDBllacklist.7onez', 'w' , encoding="utf-8") as f:
         f.write('\n'.join(lines))

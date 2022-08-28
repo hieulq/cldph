@@ -30,13 +30,13 @@ def main():
         fin = fin.replace('*.','')
         fin = fin.replace('/*','')
         fin = fin + ''
-      #  print(f'url Name:  {i["url"]}')
+        print(f'url Name:  {i["url"]}')
      #$   print(f'url Name:' +  fin)
         blacklist.append(fin)
     blacklist = list(dict.fromkeys(blacklist))
     with open('CLDBllacklist.7onez', 'a' , encoding="utf-8") as f:
         f.writelines('\n0.0.0.0 '.join(blacklist))
-    #print(blacklist)
+    print(blacklist)
 
 
 if __name__ == '__main__':

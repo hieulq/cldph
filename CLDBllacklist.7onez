@@ -1,5 +1,5 @@
 # Title: Chong Lua Dao Blacklist (Pihole)
-# Updated: 09/03/2023, 20:53:16
+# Updated: 09/17/2023, 21:35:57
 # Expires: 1 day (update frequency)
 # Homepage: https:chongluadao.vn
 # License: https:chongluadao.vn
@@ -16848,3 +16848,5 @@
 0.0.0.0 rut-tien-the-tin-dung.online
 0.0.0.0 dv-the-tin-dung.online
 0.0.0.0 the-tin-dung-master-card.com
+0.0.0.0 vingroupglobal.com
+0.0.0.0 vingroupinternational.vn
